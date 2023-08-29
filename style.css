@@ -481,7 +481,7 @@ transition: all .5s ease;
 
 /*------------------------------------------------------------------------------*/
 #projetos{
-   height: 100vh;
+   height: 170vh;
    width: 100%;
    background-color: whitesmoke;
    display: flex; 
@@ -502,19 +502,21 @@ transition: all .5s ease;
 .borda5{
     border: 0.063rem solid #4831D4;
     position: absolute;
-    height: 100%;
+    height: 170vh;
     width: 0.125rem;
     margin-left: 95%;
 }
 .borda6{
     border: 0.063rem solid #4831D4;
     position: absolute;
-    height: 100%;
+    height: 170vh;
     width: 0.125rem;
     margin-right: 95%;
 }
 .project-conteiner{
     display: flex;
+    max-width: 90%;
+    flex-wrap: wrap;
     justify-content:center;
     align-items: center;
     padding-top:1.875rem;
@@ -650,12 +652,20 @@ color: whitesmoke;
 
 /*=====================================================================================================================*/
 /*Projetos*/
+@media screen and (max-width:1100px){
+  #projetos h1{
+    font-size: 2.5rem;
 
+    margin-top: 1rem;
+ 
+}
+}
 
 @media screen and (max-width:840px){
   #projetos h1{
     font-size: 2.5rem;
-    margin-top: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
  
 }
   .projects{
@@ -682,10 +692,22 @@ color: whitesmoke;
 }
 
 }
+@media screen and (max-width:650px){
+  #projetos h1{
+    font-size: 2.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+ 
+}
+#subtitulo{
+  font-size: 0.7rem;
+}
+
+}
 @media screen and (max-width:481px){
   #projetos h1{
     font-size: 2.125rem;
-    margin-top: 0rem;
+     margin-top: 3.5rem;
  
 }
   .projects{
@@ -714,8 +736,8 @@ color: whitesmoke;
 @media screen and (max-width:360px){
   #projetos h1{
     font-size: 1.5rem;
-
-    margin-top: 3.75rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 .projects{
   height: 2.625rem;
