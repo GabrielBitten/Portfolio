@@ -699,7 +699,7 @@ color: #4831D4;
  
     position: relative;
 
-    height: 5.8rem;
+    height: 6.8rem;
 
     overflow: hidden; 
 
@@ -778,7 +778,9 @@ color: #4831D4;
     color: #4831D4;
     transition: all .5s ease;
 } 
-
+.projects:hover{
+  transform:  scale(1.1);
+ }
 .projects #icon{
     color: #4831D4;
     margin-bottom: 0.625rem;
