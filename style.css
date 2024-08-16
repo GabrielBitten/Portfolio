@@ -698,7 +698,9 @@ color: #4831D4;
     transition: all .5s ease;
  
     position: relative;
-
+    display: flex;
+    
+    align-items: center;
     height: 6.8rem;
 
     overflow: hidden; 
