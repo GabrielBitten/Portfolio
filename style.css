@@ -126,6 +126,7 @@ transition: 0.3s;
   flex-direction: column;
   height: 100vh;
   background:transparent;
+  overflow-x: hidden;
 }
 
 .absolute{
@@ -1106,11 +1107,11 @@ hr{
 
 @media screen and (max-width:800px){
   #tecnologias{
-    height: 150vh;
+    height: 120vh;
   }
 #tec-p{
-    margin-bottom: 170px;
-
+    margin-bottom: 300px;
+    top: 0;
    
   }
 
@@ -1122,6 +1123,7 @@ hr{
   height: auto;
   flex-direction: column;
   gap: 10px;
+ 
 
 }
 
@@ -1199,9 +1201,10 @@ font-size: 0.76rem;
   padding: 0.625rem;
  
   width: 18.25rem;
-  margin: 20px;
+  margin-top: 100px;
  
 } 
+
 .info-box p{
 
 text-indent: 1.875rem;
@@ -1267,7 +1270,10 @@ font-size: 0.7rem;
  .blur{
   transform: scale(0.6);
 }
-    
+#footer-social-media{
+  margin-top: 100px;
+}
+
 }
 
 
@@ -1283,9 +1289,6 @@ font-size: 0.7rem;
   margin-left: 0;
 }
 
-.blur{
-  transform: scale(0.5);
-}
 
 }
 
@@ -1296,7 +1299,7 @@ font-size: 0.7rem;
 .barras{
   display: block;
   z-index: 1;
-  
+  margin-right: 10px;
 }
 .navbar{
 position: fixed;
