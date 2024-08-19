@@ -497,7 +497,7 @@ transition: all .5s ease;
 }
 .tec-conteiner-1{
  
-  width: 70rem;
+  width: auto;
   display: flex;
   
   align-items: center;
@@ -505,6 +505,8 @@ transition: all .5s ease;
   flex-wrap: nowrap;
   justify-content: center;
   height: 28rem;
+
+ 
   
 
 }
