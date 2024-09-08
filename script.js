@@ -5,20 +5,6 @@ window.addEventListener("scroll", function(){
 
 
 
-//function typeWriter(elemento){
- //   const textoArray = elemento.innerHTML.split('');
- //   elemento.innerHTML= '';
- //   textoArray.forEach((letra,i) => {
- //       setTimeout(()=> elemento.innerHTML += letra, 40 * i);
-        
-//    });
-    
-
-//}
-//const titulo = document.querySelector('#apresentacao');
-//typeWriter(titulo);
-
-
 window.sr = ScrollReveal({ reset: true});
 sr.reveal('.info-box',{duration:1700});
 sr.reveal('#sobre h1',{duration:1700});

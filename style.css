@@ -483,6 +483,7 @@ transition: 0.3s;
   flex-direction: column;
   height: 100vh;
   background-color:transparent; 
+
   position: relative;
  
 }
@@ -666,6 +667,7 @@ input:checked + label .description{
    align-items: center; 
    justify-content: center;
    flex-direction: column;
+   
    position: relative;
  
 }
@@ -747,7 +749,7 @@ input:checked + label .description{
 }
 .itemPt2{
   position: absolute;
-  right: max(calc(15rem * 6), 100%);
+  right: max(calc(15rem * 7), 100%);
 
   animation-name: scrollright;
   animation-duration: 30s;
@@ -830,45 +832,48 @@ input:checked + label .description{
 
 
 .item8{
-  animation-delay: calc(30s / 6 * (6 - 1) * -1) ;
+  animation-delay: calc(30s / 7 * (7 - 1) * -1) ;
 }
 
 .item9{
-  animation-delay:calc(30s / 6 * (6 - 2) * -1);
+  animation-delay:calc(30s / 7 * (7 - 2) * -1);
 }
 
 .item10{
-  animation-delay: calc(30s / 6 * (6 - 3) * -1) ;
+  animation-delay: calc(30s / 7 * (7 - 3) * -1) ;
 }
 
 .item11{
-  animation-delay:calc(30s / 6 * (6 - 4) * -1)  ;
+  animation-delay:calc(30s / 7 * (7 - 4) * -1)  ;
 }
 
 .item12{
-  animation-delay: calc(30s / 6 * (6 - 5) * -1) ;
+  animation-delay: calc(30s / 7 * (7 - 5) * -1) ;
 }
 
 .item13{
-  animation-delay:calc(30s / 6 * (6 - 6) * -1)  ;
+  animation-delay:calc(30s / 7 * (7 - 6) * -1)  ;
+}
+.item14{
+  animation-delay:calc(30s / 7 * (7 - 7) * -1)  ;
 }
 
 
 
 
-.item14{
+.item15{
   animation-delay:calc(30s / 5 * (5 - 1) * -1)  ;
 }
-.item15{
+.item16{
   animation-delay:calc(30s / 5 * (5 - 2) * -1)  ;
 }
-.item16{
+.item17{
   animation-delay:calc(30s / 5 * (5 - 3) * -1)  ;
 }
-.item17{
+.item18{
   animation-delay:calc(30s / 5 * (5 - 4) * -1)  ;
 }
-.item18{
+.item19{
   animation-delay:calc(30s / 5 * (5 - 5) * -1)  ;
 }
 /*-----------------------------------------------------------------------------*/
